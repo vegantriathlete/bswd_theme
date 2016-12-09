@@ -1,0 +1,12 @@
+/**
+ * @file
+ * Visual styles for Classysub's Site Branding
+ */
+
+.block-system-branding-block {
+  border-bottom: 1px solid #000;
+}
+.site-slogan {
+  font-style: italic;
+}
+

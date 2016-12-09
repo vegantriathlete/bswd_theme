@@ -1,0 +1,9 @@
+/**
+ * @file
+ * Define state styling for Classysub
+ */
+
+a:hover {
+  text-decoration: underline;
+}
+

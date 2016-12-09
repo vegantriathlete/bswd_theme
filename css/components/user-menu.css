@@ -1,0 +1,16 @@
+/**
+ * @file
+ * Visual styles for Classysub's User Menu
+ */
+
+.region-user-menu .menu {
+  text-align: right; /* LTR */
+}
+[dir="rtl"] .region-user-menu .menu {
+  text-align: left;
+}
+.region-user-menu .menu-item {
+  display: inline-block;
+  padding: 0.5em;
+}
+

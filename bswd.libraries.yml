@@ -1,0 +1,30 @@
+global-styling:
+  version: 1.x
+  css:
+    base:
+      css/base/base.css: {}
+    component:
+      css/components/footer.css: {}
+      css/components/main-content.css: {}
+      css/components/node.css: {}
+      css/components/related-offer.css: {}
+      css/components/sidebar.css: {}
+      css/components/site-branding.css: {}
+      css/components/user-menu.css: {}
+    layout:
+      css/layout/layout.css: {}
+    state:
+      css/state/state.css: {}
+    theme:
+      css/theme/footer.css: {}
+      css/theme/node.css: {}
+      css/theme/sidebar.css: {}
+      css/theme/site-branding.css: {}
+
+blog_listing:
+  version: 1.x
+  css:
+    component:
+      css/components/view-blog.css: {}
+  dependencies:
+    - bswd/global-styling

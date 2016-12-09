@@ -1,0 +1,17 @@
+name: 'Successful Web Developer Blog Theme - Version 1'
+type: theme
+description: 'This is a minimalist subtheme of Classy'
+core: 8.x
+base theme: classy
+
+libraries:
+  - bswd/global-styling
+
+regions:
+  user_menu: 'User Menu'
+  header: Header
+  primary_menu: 'Primary Menu'
+  help: Help
+  content: 'Main Content'
+  sidebar_first: Sidebar
+  footer: Footer
